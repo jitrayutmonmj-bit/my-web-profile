@@ -1,0 +1,59 @@
+/* ตกแต่งพื้นหลังเว็บไซต์ */
+body {
+    background-color: papayawhip;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* ตกแต่งการ์ดโปรไฟล์ */
+.card {
+    width: 300px;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* ตกแต่งรูปภาพ */
+.card img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 15px;
+}
+
+/* ตกแต่งชื่อโปรไฟล์ */
+#profile-name {
+    color: #333333;
+    text-align: center;
+}
+
+/* ตกแต่งข้อความแนะนำตัว */
+.bio {
+    color: #666666;
+    font-size: 14px;
+    text-align: center;
+    line-height: 1.6;
+}
+
+/* ตกแต่งหัวข้อทักษะ */
+h3 {
+    color: #333333;
+}
+
+/* ตกแต่งรายการทักษะ */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    background-color: #fff0e0;
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
